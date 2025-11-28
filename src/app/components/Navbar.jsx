@@ -143,7 +143,7 @@ export default function Navbar() {
                 <Link href="/#token">Token</Link>
               </li>{' '} */}
               <li onClick={toggleMobileMenu}>
-                <Link href="/work">How it works</Link>
+                <Link href="/how-it-works">How it works</Link>
               </li>
               {/* <li onClick={toggleMobileMenu}>
                 <Link href="/#roadmap">Roadmap</Link>
