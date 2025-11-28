@@ -134,16 +134,16 @@ export default function Navbar() {
           <div className="tgmobile__menu-outer">
             <ul className="navigation">
               <li onClick={toggleMobileMenu}>
-                <Link href="/#home">Home</Link>
+                <Link href="/">Home</Link>
               </li>
               <li onClick={toggleMobileMenu}>
-                <Link href="/#features">Features</Link>
+                <Link href="/features">Features</Link>
               </li>
               {/* <li onClick={toggleMobileMenu}>
                 <Link href="/#token">Token</Link>
               </li>{' '} */}
               <li onClick={toggleMobileMenu}>
-                <Link href="/#work">How it works</Link>
+                <Link href="/work">How it works</Link>
               </li>
               {/* <li onClick={toggleMobileMenu}>
                 <Link href="/#roadmap">Roadmap</Link>
